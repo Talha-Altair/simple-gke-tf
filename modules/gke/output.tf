@@ -1,3 +1,3 @@
 output "status" {
-  value = var.cluster_name + "created"
+  value = "${var.cluster_name} created"
 }
