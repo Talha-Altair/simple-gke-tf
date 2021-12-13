@@ -29,6 +29,6 @@ variable "machine_type" {
 }
 
 variable "node_locations" {
-  type = list(string)
+  type = list
   description = "node_locations"
 }
